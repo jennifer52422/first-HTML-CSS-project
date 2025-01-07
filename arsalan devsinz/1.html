@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+    <style>
+        nav{
+            background-image: linear-gradient(rgb(170, 170, 170),rgb(0, 0, 148));
+            overflow: hidden;
+        }
+        li{
+            list-style: none;
+            float: inline-end;
+            padding-bottom: 20PX;
+
+
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 10px;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+        .container {
+            display: flex; /* Flexbox ko enable kar raha hai */
+            justify-content: space-between; /* Divs ko space ke saath spread kar raha hai */
+        }
+        .box {
+            height: 450px;
+            width: 600px; /* Divs ki width define kar rahe hain */
+            padding: 20px;
+            background-color: white;
+            margin: 10px;
+        }
+        .a1{
+            background-size: cover;
+            height: 350px;
+            width: 350px;
+            background-image: url("https://t3.ftcdn.net/jpg/09/71/12/14/360_F_971121459_HkN1oaubUzMrSIInTMZLUyFXPnlrjEqu.jpg");
+        }
+        .a2{
+            margin-top: 80px;
+            font-size: 25px;
+        }
+        .a3{
+            height: 50px;
+            width: 50px;
+            background-color: rgb(32, 32, 168);
+            animation-name: animation1;
+            animation-duration: 3s;
+            position: relative;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animation1{
+            0% { top: 200px; left: 0px;}
+            50% { top: 200px; left: 600px;}
+            100% { top: 200px; left: 1200px;}
+
+        }
+        .a4{
+            height: 50px;
+            width: 50px;
+            background-color: rgb(0, 0, 97);
+            animation-name: animation1;
+            animation-duration: 3.5s;
+            position: relative;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animation1{
+            0% { top: 200px; left: 0px;}
+            50% { top: 200px; left: 600px;}
+            100% { top: 200px; left: 1200px;}
+
+        }
+        .a5{
+            height: 50px;
+            width: 50px;
+            background-color: rgb(0, 0, 26);
+            animation-name: animation1;
+            animation-duration: 2s;
+            position: relative;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animation1{
+            0% { top: 200px; left: 0px;}
+            50% { top: 200px; left: 600px;}
+            100% { top: 200px; left: 1200px;}
+
+        }
+        .a6{
+            height: 50px;
+            width: 50px;
+            background-color: rgb(0, 0, 97);
+            animation-name: animation1;
+            animation-duration: 5s;
+            position: relative;
+            animation-iteration-count: infinite;
+        }
+        @keyframes animation1{
+            0% { top: 200px; left: 0px;}
+            50% { top: 200px; left: 600px;}
+            100% { top: 200px; left: 1200px;}
+
+        }
+        .container1 {
+            display: flex; /* Flexbox ko enable kar raha hai */
+            justify-content: space-between; /* Divs ko space ke saath spread kar raha hai */
+        }
+        .box1 {
+            height: 450px;
+            width: 600px; /* Divs ki width define kar rahe hain */
+            padding: 20px;
+            background-color: rgb(255, 255, 255);
+            margin: 10px;
+        }
+        .a8{
+            height: 400px;
+            width: 600px;
+            background-size: cover;
+            margin-top: px;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoMWEiaa3AnoIEmlODmJT2ZnUVbKz1XQJB3wk3wCpQitjeek5zpNSZuROrPPMLYSDDEJY&usqp=CAU");
+        }
+        .a7{
+            
+        }
+        .container2 {
+            display: flex; /* Flexbox ko enable kar raha hai */
+            justify-content: space-between; /* Divs ko space ke saath spread kar raha hai */
+        }
+        .box2 {
+            height: 450px;
+            width: 600px; /* Divs ki width define kar rahe hain */
+            padding: 20px;
+            background-color: rgb(255, 255, 255);
+            margin: 10px;
+        }
+        .a9{
+            height: 450px;
+            width: 600px;
+            background-size: cover;
+            margin-bottom:50px;
+            background-image: url("https://t4.ftcdn.net/jpg/02/26/98/63/360_F_226986354_sKD3f4tMM1ktIUz4oso0CjDL6aAgGV6z.jpg");
+        }
+        .a7{
+            margin-bottom: 50px;
+        }
+        .container3 {
+            display: flex; /* Flexbox ko enable kar raha hai */
+            justify-content: space-between; /* Divs ko space ke saath spread kar raha hai */
+        }
+        .box3 {
+            height: 450px;
+            width: 600px; /* Divs ki width define kar rahe hain */
+            padding: 20px;
+            background-color: rgb(255, 255, 255);
+            margin: 10px;
+        }
+        .a12{
+            height: 400px;
+            width: 600px;
+            background-size: cover;
+            margin-top: px;
+            background-image: url("https://thumbs.dreamstime.com/b/cute-cartoon-style-ofa-modern-office-building-glass-windows-sleek-design-331018290.jpg");
+        }
+        .a7{
+            
+        }
+        .a13{
+            font-size: 50px;
+            font-style: italic;
+
+        }
+        .a14{
+            height: 500px;
+            width: 600px;
+            background-size: auto;
+            background-image: url("https://freedesignfile.com/upload/2012/03/001c0674439.jpg");
+
+        }
+        .container4 {
+            display: flex; /* Flexbox ko enable kar raha hai */
+            justify-content: space-between; /* Divs ko space ke saath spread kar raha hai */
+        }
+        .box4 {
+            height: 350px;
+            width: 350px; /* Divs ki width define kar rahe hain */
+            padding: 20px;
+            background-color: ;
+            margin: 10px;
+            font-size: 10px;
+        }
+        .a16{
+            background-size: auto;
+            height: 170px;
+            width: 250px;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7AjifarLAiZtjqhsZEEwdUyny-zv1xcMIVHih4nLjDj5lVpfcVQA3RAyvTN4vc0OLZcg&usqp=CAU");
+            background-color: rgb(255, 255, 255);
+            margin-right: 20px;
+        }
+        .a17{
+            background-size: cover;
+            height: 170px;
+            width: 250px;
+            background-image: url("https://img.freepik.com/premium-photo/man-face-vector-logo-design-white-background_595175-2718.jpg");
+            background-color: rgb(255, 255, 255);
+            margin-left: 20px;
+        }
+        .a18{
+            background-size: cover;
+            height: 200px;
+            width: 250px;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDGW_AdihZOx2KgMRc0zD9YSOdBGpCvtLcyngD2jePA1AcGHDKWJISUuyrFZtK0f0R5Lg&usqp=CAU");
+            background-color: rgb(255, 255, 255);
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="contact us.html">CONTACT US</a></li>
+            <li><a href="2.HTML">DEALERS</a></li>
+            <li><a href="all project.html">ALL PROJECTS</a></li>
+            <li><a href="">HOME</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="box">
+            <div class="a2">
+                <center>
+                    <h1>FAAMK</h1>
+                <H6>_______________________</H6>
+                <H2>Construction & Builders</H2>
+                <h4>FAAMK is a leading globle builder
+                    and construction developer
+                </h4>
+    
+                </center>
+            </div>
+        </div>
+        <div class="box">
+            <center>
+                <div class="a1"></div>
+            </center>
+        </div>
+
+    </div>
+    <div class="a3"></div>
+    <div class="a4"></div>
+    <div class="a5"></div>
+    <div class="a6"></div>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
+
+    <div class="container1">
+        <div class="box1">
+            <center>
+                <div class="a7"><br><br>
+                    <h1>TULIP TOWER</h1>
+                    <h6>__________________________________________</h6>
+        <H2>Scheme 33, Sector 35, Near Safoora Chowk</H2>
+        <h2>Karachi,Karachi city, Sindh</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </center>
+        </div>
+        <div class="box1">
+            <div class="a8"></div>
+        </div>
+
+    </div>
+    <div class="container2">
+        <div class="box2">
+            <div class="a9"></div>
+        </div>
+        <div class="box2">
+            <center>
+                <div class="a10"><br><br>
+                    <h1>CLASSIC TOWER</h1>
+                    <h6>__________________________________________</h6>
+        <H2>Scheme 20, Sector 5, Near tariq road</H2>
+        <h2>Karachi,Karachi city, Sindh</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                </div>
+            </center>
+        </div>
+
+    </div>
+    <div class="container3">
+        <div class="box3">
+            <center>
+                <div class="a11"><br><br>
+                    <h1>ICON TOWER</h1>
+                    <h6>__________________________________________</h6>
+        <H2>Scheme 16, Sector 11, Near waterpump Chowk</H2>
+        <h2>Karachi,Karachi city, Sindh</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </center>
+        </div>
+        <div class="box3">
+            <div class="a12"></div>
+        </div>
+
+    </div>
+    <br><br><br>
+    <br><br><br>
+    <div class="a13">
+        <center>
+            <h2>COMING SOON</h2>
+            <h1>FEB 2025</h1>
+            <h5>NEAR BAHRIA TOWN KARACHI</h5>
+            <H6>FAAMK CITY</H6>
+            <div class="a14"></div>
+
+        </center>
+    </div>
+    <div class="container4">
+        <div class="box4">
+            <br>
+            <br>
+            <br>
+            <center>
+                <div class="a16"></div>
+                <h1>SIR HAMMAD IRFAN</h1>
+                <h2>DSP OF DEVSINZS</h2>
+            </center>
+        </div>
+        <div class="box4">
+            <center>
+                <div class="a17"></div>
+                <h1>SIR HAMZA YOUSUF</h1>
+                <h2>ASI OF DEVSINZS</h2>
+            </center>
+        </div>
+        <div class="box4">
+            <center>
+                <div class="a18"></div>
+                <h1>ARSALAN AHMED</h1>
+                <h2>STUDENT OF DEVSINZS</h2>
+            </center>
+        </div>
+    </div>
+
+</body>
+</html>
